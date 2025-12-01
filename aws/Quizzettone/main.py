@@ -71,7 +71,7 @@ def main():
             feedback = "Inserisci solo la risposta tra le opzioni elencate"
 
         mostra_feedback(feedback)
-        if is_risposta_corretta == True: 
+        if is_risposta_corretta == True:
             break
 
 # Entry point del nostro programma
