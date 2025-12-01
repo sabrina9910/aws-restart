@@ -41,9 +41,8 @@ match answer_tmp:
 
 print(result)
 
-"""
 
-"""
+
 if answer_tmp == "A":
     print(f"la risposta e: {answer_tmp} - Sfera Ebbasta")
 
@@ -58,10 +57,8 @@ elif answer_tmp == "D":
 
 else:
     print(f"Cambia cantante, tanto i trapper non cantano")
-"""
-
-
-input_venv : str = ""
+    """
+"""input_venv : str = ""
 
 while True:
     input_venv = input("(venv) $")
@@ -71,5 +68,5 @@ while True:
 
 print("uscito dal venv")
 
-
+"""
 
