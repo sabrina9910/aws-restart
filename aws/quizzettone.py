@@ -1,60 +1,78 @@
-'''
-Funzioni da creare
-mostra_menu() (senza return)
-Non prende parametri
-Stampa la domanda e le 4 opzioni
-Non restituisce nulla
 
-raccogli_risposta() (con return)
-Non prende parametri
-Chiede l'input all'utente
-Restituisce la scelta 
-
-valida_scelta(scelta) (con return)
-prende come parametro il numero scelto
-Verifica se è tra A B C D usando if
-Restituisce True se valida, False altrimenti
-
-'''
-
-
-
-def mostra_domanda() -> None:
+def mostra_feedback(messaggio: str) -> None:
     """
-    questa funzione restituisce la domanda e le opzioni della risposta
+    Restituisce il feedback formattato nella maniera desiderata.
     """
+    simbol: str = "*"*30
+    print(f"""
+{simbol}
+{messaggio}
+{simbol}
+""")
+
+def genera_feedback(scelta: str) -> str:
+    """
+    Restituisce il messaggio che indica all'utente se ha indovinato la risposta oppure no.
+    Questa funzione viene eseguita solo se la funzione di validazione restituisce true.
+    """
+    if scelta.upper() == "A":
+        return "Hai indovinato!"
+    else:
+        return "Non hai indovinato. Ritenta!"
+
+def valida_scelta(scelta: str) -> bool:
+    """
+    Questa funzione prende un valore di tipo stringa e verifica che la risposta sia una delle opzioni tra A, B, C e D. 
+    Se la risposta è una stringa vuota, restituisce false, idem se la risposta non è una di quelle sopra elencate.
+    """
+    scelta_tmp = scelta.upper()
+    if scelta_tmp == "A" or scelta_tmp == "B" or scelta_tmp == "C" or scelta_tmp == "D":
+        return True
+    else: 
+        return False
+
+def mostra_domanda() -> None: 
+    """
+    Questa funzione restituisce la domanda e le opzioni della riposta. 
+    """
+    
     print(
-    """
-    Chi parteciperà a sanremo 2026?   
-    A. Nayt
-    B. La Nina
-    C. Nilla Pizzi 
-    D. Rocco Papaleo
-    """
+"""
+Chi parteciperà a Sanremo 2026?
+
+A. Nayt
+B. La Nina
+C. Nilla Pizzi
+D. Rocco Papaleo
+"""
     )
 
 def raccogli_risposta() -> str:
     """
-    Questa funziona si occupa solamente di prendere l'input dell'utente 
-    il cotnrollo di tale valore avverrà attraverso una funzione dedicata"
-    """
-    return input("Inserisci la tua scelta: ")
-mostra_domanda()
-
-
-def valida_scelta(scelta:str) -> bool:
+    Questa funzione si occupa solamente di prendere l'input dell'utente. 
+    Il controllo di tale valore avverrà attraverso una funzione dedicata.
     """ 
-    Questa funzione prende un valore di tipo stringa e verifica che la risposta sia una delle opzioni tra a b c d
-    se la stringa è vuota o non una di quelle sopra elencate restitutisce False 
-    """
-    scelta_tmp = scelta.upper()
-    if scelta_tmp == "A" or scelta_tmp == "B" or scelta_tmp ==  "C" or scelta_tmp == "D":
+    return input("Inserisci la tua scelta: ")
+    
 
-        return True
-    else:
-        return False 
+def main():
+    is_risposta_corretta: bool = False
+    while True:
+        mostra_domanda()
+        risposta_da_validare: str = raccogli_risposta()
+        risposta_validata: bool = valida_scelta(risposta_da_validare)
+        feedback: str = ""
 
-risposta_da_validare: str = raccogli_risposta()
-risposta_validata: bool = valida_scelta(risposta_da_validare)
+        if risposta_validata == True:
+            feedback = genera_feedback(risposta_da_validare)
+            if feedback == "Hai indovinato!":
+                is_risposta_corretta = True
+        else: 
+            feedback = "Inserisci solo la risposta tra le opzioni elencate"
 
-print(risposta_validata)
+        mostra_feedback(feedback)
+        if is_risposta_corretta == True: 
+            break
+
+# Entry point del nostro programma
+main()
