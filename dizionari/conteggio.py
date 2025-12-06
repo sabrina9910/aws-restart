@@ -11,3 +11,9 @@ Conteggio voti: {'A': 4, 'B': 3, 'C': 2, 'D': 1}
 
 
 """
+
+voti = ["A", "B", "A", "C", "B", "A", "D", "B", "C", "A"]
+conteggio = dict()
+for voto in voti:
+    conteggio[voto] = conteggio.get(voto, 0) + 1
+print(conteggio)

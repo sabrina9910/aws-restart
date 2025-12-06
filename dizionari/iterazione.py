@@ -19,3 +19,15 @@ bob presente: True
 Usernames: dict_keys(['alice', 'bob', 'charlie'])
 Ruoli: dict_values(['admin', 'user', 'guest'])
 """
+
+utenti = {
+    "alice": "admin",
+    "bob": "user",
+    "charlie": "guest"
+}
+
+for username, ruolo in utenti.items():
+    print(f"Username: {username}, Ruolo: {ruolo}")
+    print("bob è presente?", "bob" in utenti)
+    print("Tutte le chiavi:", list(utenti.keys()))
+    print("Tutti i ruoli:", list(utenti.values()))

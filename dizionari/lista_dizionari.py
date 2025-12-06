@@ -18,3 +18,17 @@ Prodotti > 100€:
 
 Valore totale inventario: €11224.20
 """
+lista_prodotti = [
+    {"nome": "Laptop", "prezzo": 899.99, "quantita": 5},
+    {"nome": "Mouse", "prezzo": 25.50, "quantita": 50},
+    {"nome": "Tastiera", "prezzo": 75.00, "quantita": 30},
+    {"nome": "Monitor", "prezzo": 299.99, "quantita": 15}
+]
+
+for prodotto in lista_prodotti:
+    if prodotto["prezzo"] > 100:
+        print(f"- {prodotto['nome']} ({prodotto['prezzo']} €)")
+
+valore_totale = sum(prodotto["prezzo"] * prodotto["quantita"] for prodotto in lista_prodotti)
+
+print("\nValore totale dell'inventario:", valore_totale, "€")

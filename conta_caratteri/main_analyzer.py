@@ -1,0 +1,2 @@
+from text_analyzer import conta_caratteri, frequenza_caratteri
+from io_utils import leggi_file

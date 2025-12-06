@@ -14,3 +14,17 @@ Massimo: 78.3
 23.1 presente: True
 Prezzi > 50: 2
 """
+
+prezzi = [45.5, 12.0, 78.3, 23.1, 56.7]
+prezzi_ordinati = sorted(prezzi)
+prezzo_min = min
+prezzo_max = max 
+presente = 23.1 in prezzi
+maggiori_50 = sum(1 for p in prezzi if p > 50)
+
+print("Prezzi originali",prezzi)
+print("Prezzi ordinati",prezzi_ordinati)
+print("Prezzo minimo:", min(prezzi))
+print("Prezzo massimo:", max(prezzi))
+print("23.1 è presente?",presente)
+print("Quanti prezzi sono maggiori di 50?",maggiori_50)

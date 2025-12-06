@@ -13,3 +13,9 @@ Ultima temperatura: 20
 Temperature [2:5]: [22, 25, 28]
 Ogni due: [15, 22, 28, 27, 20]
 """
+temperature = [15, 18, 22, 25, 28, 30, 27, 24, 20]
+
+print("Prima temperatura:", temperature[0])
+print("Ultima temperatura:", temperature[-1])
+print("Dalla posizione 2 alla 5 (esclusa)", temperature [2:5])
+print("Stampare tutte le temperature con step 2 (saltando una ogni due)", temperature [::2])
