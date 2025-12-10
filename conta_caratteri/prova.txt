@@ -1,5 +1,0 @@
-Questo è un file di prova per il programma text_analyzer.
-Qui ci sono alcune ripetizioni: aaa bbb ccc ddd aaa aaa.
-Vediamo se il programma conta correttamente i caratteri,
-e trova quelli che compaiono più di cinque volte.
-Prova prova prova prova!
