@@ -34,6 +34,7 @@ def main() -> None:
         product = product_model(raw_product)
         print_product(product)
 
+
     except Exception as e:
         print(f"Errore: {e}")
 
