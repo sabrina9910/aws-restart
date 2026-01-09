@@ -1,0 +1,42 @@
+{
+  "characters": [
+    {
+      "id": "b0fe8a0d-72dc-4786-a8de-238d7de6b4da",
+      "user_prompt": "un elfo che mangia la carbonara grosso guerriero",
+      "name": "Aerion",
+      "race": "Elfo",
+      "class": "Guerriero",
+      "level": 5,
+      "stats": {
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 15,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 8
+      },
+      "backstory": "Aerion non era l'elfo tipico. Fin dalla giovane età, la sua statura e la sua forza superavano di gran lunga quelle dei suoi coetanei, un'anomalia che lo distingueva e a volte lo isolava dalla grazia eterea della sua gente. Cresciuto ai margini di una foresta antica che confinava con insediamenti umani, Aerion sviluppò un'affinità per il mondo materiale e le sue sfide più dirette. La sua famiglia, sebbene fiera delle tradizioni elfiche, riconobbe la sua natura unica e lo incoraggiò a seguire la sua strada. Aerion si unì a una compagnia di mercenari umani per un breve periodo, imparando i rudimenti della spada pesante e dell'armatura, e affinando la sua innata robustezza in una disciplina marziale formidabile. Fu durante questo periodo che scoprì un amore inaspettato per la cucina ricca e saporita degli umani, in particolare per un piatto che gli ricordava la \"carbonara\", un nome che aveva sentito pronunciare in una taverna affollata e che gli evocava un mix perfetto di sapori e consistenze. Vedeva in quel piatto una metafora della sua stessa vita: ingredienti semplici ma potenti, uniti per creare qualcosa di straordinario e soddisfacente. Dopo aver lasciato i mercenari, Aerion vagò per le terre, offrendo la sua spada a chi ne avesse bisogno, sempre alla ricerca di nuove sfide e, forse, di un'altra ciotola di quel comfort culinario. La sua natura elfa gli conferiva una longevità e una prospettiva che pochi guerrieri umani potevano comprendere, ma il suo cuore batteva al ritmo della battaglia e dei piaceri semplici della vita. La sua grandezza fisica, unita alla sua abilità con le armi, lo rendeva un avversario temibile e un alleato prezioso, un elfo che aveva scelto una via meno battuta, forgiando il proprio destino con ferro e sapore.",
+      "physical_description": "Aerion è un elfo di statura imponente, insolitamente alto e robusto per la sua razza, con spalle larghe e una muscolatura ben definita che tradisce anni di addestramento e battaglie. La sua pelle è di un colorito olivastro, indurita dal sole e dal vento, e i suoi occhi sono di un profondo verde bosco, che riflettono una saggezza antica ma anche una prontezza alla lotta. I capelli, di un castano scuro quasi nero, sono tagliati corti e pratici, spesso un po' spettinati sotto l'elmo. Indossa un'armatura di cuoio bollito rinforzata con piastre metalliche scure, comoda ma resistente, che gli permette movimenti agili nonostante la sua mole. Al fianco porta una pesante spada a due mani, la cui impugnatura è avvolta in pelle grezza. Una cicatrice sottile attraversa il suo sopracciglio sinistro, ricordo di uno scontro passato, e le sue mani sono callose e forti, mani di un guerriero che sa come tenere un'arma e, all'occorrenza, una forchetta.",
+      "created_at": "2026-01-09T11:58:53+00:00"
+    },
+    {
+      "id": "062a680f-3f6e-4918-9444-980b749bb754",
+      "user_prompt": "un druido proveniente da terre selvagge alta statura longilineo provato dal suo passato",
+      "name": "Elara Sylvanus",
+      "race": "Elfo dei Boschi",
+      "class": "Druido",
+      "level": 5,
+      "stats": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 16,
+        "charisma": 8
+      },
+      "backstory": "Elara è cresciuta nel cuore della Selva Sospirante, un'antica e mistica foresta dove il suo circolo druidico custodiva l'equilibrio tra la vita e la morte, i cicli delle stagioni e i segreti della terra. Fin da giovane, ha mostrato una straordinaria affinità con la natura, capace di sussurrare agli alberi e calmare le bestie selvagge. Era la pupilla del Grande Anziano Lyra, che le insegnò i sentieri nascosti della magia naturale e le arti della guarigione. La sua vita idilliaca fu spezzata da un'ombra oscura: una piaga innaturale, un marciume che si diffuse rapidamente, prosciugando la vitalità degli alberi millenari e portando la sofferenza tra gli animali. Elara ha assistito impotente alla lenta e agonizzante morte della sua foresta, del suo circolo e della sua famiglia adottiva. Ricorda ancora il silenzio assordante che seguì la caduta dell'ultimo Albero Madre. Sopravvissuta per un soffio, con il cuore lacerato dal dolore e dalla colpa, Elara crede che la piaga non fosse un evento naturale, ma il risultato di un'interferenza esterna, un'aberrazione. Da allora, vaga per il mondo, una sentinella solitaria della natura, cercando risposte e un modo per prevenire che tale devastazione si ripeta. Il suo passato le ha conferito una profonda malinconia e una diffidenza verso la civiltà, ma anche una determinazione ferrea a proteggere ciò che resta della bellezza selvaggia del mondo. Cerca disperatamente la conoscenza, la magia o la forza per curare le ferite del mondo e, forse, le sue.",
+      "physical_description": "Elara è una figura imponente, con un'altezza che supera la media degli Elfi dei Boschi, conferendole un'aura quasi eterea. La sua corporatura è snella ma resistente, temprata da anni di vita selvaggia. I suoi lunghi capelli color muschio, spesso intrecciati con foglie e rametti, incorniciano un viso dai tratti delicati ma segnato da una profonda malinconia. I suoi occhi, di un verde intenso come il sottobosco, rivelano una saggezza antica e un dolore silente. Indossa vesti semplici fatte di cuoio e fibre vegetali, di colori terrosi che le permettono di mimetizzarsi. Sulle sue braccia si notano sottili cicatrici, testimonianza di incontri selvaggi o ferite del passato. Porta sempre con sé un bastone di legno nodoso, intagliato con simboli druidici, che funge da simbolo del suo legame con la terra.",
+      "created_at": "2026-01-09T12:17:35+00:00"
+    }
+  ]
+}
